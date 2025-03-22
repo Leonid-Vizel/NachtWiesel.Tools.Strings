@@ -7,10 +7,13 @@
     <GeneratePackageOnBuild>True</GeneratePackageOnBuild>
     <Title>$(AssemblyName)</Title>
     <VersionPrefix>9.0.0</VersionPrefix>
-    <Company>Nabla Lab.</Company>
     <Product>$(AssemblyName)</Product>
     <Authors>Vizel Leonid</Authors>
-    <Description>Разные часто используемые инструменты для обработки строковых типов .NET</Description>
+    <PackageIcon>icon.png</PackageIcon>
+    <RepositoryType>git</RepositoryType>
+    <PackageLicenseExpression>MIT</PackageLicenseExpression>
+    <PackageRequireLicenseAcceptance>True</PackageRequireLicenseAcceptance>
+    <Description>Набор расширений для работы со строками и удобных преобразований из типов в строки</Description>
     <PackageReleaseNotes>Перенос библиотеки</PackageReleaseNotes>
     <RepositoryType>git</RepositoryType>
     <PackageTags>Tools Bool Boolean DateOnly TimeSpan DayOfWeek Inflect String Inflect Spaces Crop</PackageTags>
@@ -18,6 +21,19 @@
     <SymbolPackageFormat>snupkg</SymbolPackageFormat>
     <RepositoryUrl>https://github.com/Leonid-Vizel/NachtWiesel.Tools.Strings/tree/master/NachtWiesel.Tools.Strings</RepositoryUrl>
     <PackageProjectUrl>https://public.weasel-farmers.ru/</PackageProjectUrl>
+    <Copyright>Vizel Leonid</Copyright>
+    <PackageReadmeFile>README.md</PackageReadmeFile>
   </PropertyGroup>
+
+  <ItemGroup>
+    <None Include="..\README.md">
+      <Pack>True</Pack>
+      <PackagePath>\</PackagePath>
+    </None>
+    <None Include="icon.png">
+      <Pack>True</Pack>
+      <PackagePath>\</PackagePath>
+    </None>
+  </ItemGroup>
 
 </Project>
