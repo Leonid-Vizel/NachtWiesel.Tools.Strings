@@ -16,8 +16,8 @@
     <PackageTags>Tools Bool Boolean DateOnly TimeSpan DayOfWeek Inflect String Inflect Spaces Crop</PackageTags>
     <IncludeSymbols>True</IncludeSymbols>
     <SymbolPackageFormat>snupkg</SymbolPackageFormat>
-    <RepositoryUrl></RepositoryUrl>
-    <PackageProjectUrl></PackageProjectUrl>
+    <RepositoryUrl>https://github.com/Leonid-Vizel/NachtWiesel.Tools.Strings/tree/master/NachtWiesel.Tools.Strings</RepositoryUrl>
+    <PackageProjectUrl>https://public.weasel-farmers.ru/</PackageProjectUrl>
   </PropertyGroup>
 
 </Project>

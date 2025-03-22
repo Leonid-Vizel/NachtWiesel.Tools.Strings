@@ -1,4 +1,4 @@
-﻿namespace Nabla.Tools.Common;
+﻿namespace NachtWiesel.Tools.Strings;
 
 public static class InflectExtensions
 {

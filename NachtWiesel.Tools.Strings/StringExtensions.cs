@@ -1,6 +1,6 @@
 ﻿using System.Text.RegularExpressions;
 
-namespace Nabla.Tools.Common;
+namespace NachtWiesel.Tools.Strings;
 
 public static class StringExtensions
 {

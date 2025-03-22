@@ -1,12 +1,12 @@
 ﻿using System.Diagnostics;
 
-namespace Nabla.Tools.Common;
+namespace NachtWiesel.Tools.Strings;
 
 public static class RomanNumbersExtensions
 {
     public static string ToRoman(int number)
     {
-        if ((number < 0) || (number > 3999)) throw new ArgumentOutOfRangeException(nameof(number), "метод предназначен для чисел от 1 до 3999");
+        if (number < 0 || number > 3999) throw new ArgumentOutOfRangeException(nameof(number), "метод предназначен для чисел от 1 до 3999");
         if (number < 1) return string.Empty;
         if (number >= 1000) return "M" + ToRoman(number - 1000);
         if (number >= 900) return "CM" + ToRoman(number - 900);

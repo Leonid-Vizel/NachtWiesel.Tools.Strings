@@ -1,4 +1,4 @@
-﻿namespace Nabla.Tools.Common;
+﻿namespace NachtWiesel.Tools.Strings;
 
 public static class BooleanExtensions
 {
@@ -12,5 +12,5 @@ public static class BooleanExtensions
         };
     }
     public static string? ToYesNoString(this bool flag, string? nullValue = "Не указано", string yesValue = "Да", string noValue = "Нет")
-        => ToYesNoString(flag as bool?, nullValue, yesValue, noValue);
+        => (flag as bool?).ToYesNoString(nullValue, yesValue, noValue);
 }

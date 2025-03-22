@@ -1,6 +1,6 @@
 ﻿using System.Text;
 
-namespace Nabla.Tools.Common;
+namespace NachtWiesel.Tools.Strings;
 
 public static class TimeSpanExtensions
 {
